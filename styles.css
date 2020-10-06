@@ -1,0 +1,8 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.block__header, .header__logo {
+  font-family: 'PT Serif', serif;
+}
+
