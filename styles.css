@@ -24,7 +24,7 @@ body { font-family: 'Roboto', sans-serif; }
   align-items: center;
 }
 
-.nav__link { 
+.nav__link {
   padding: 0 13px;
   text-decoration: none;
   color: black;
@@ -41,6 +41,6 @@ body { font-family: 'Roboto', sans-serif; }
 
 .main-section__btn {
   padding: 3% 7%;
-  background-color: #0056EC;
+  background-color: #0056ec;
   color: white;
 }
