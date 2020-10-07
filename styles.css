@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.block__header, .header__logo {
+.section__title, 
+.header__logo {
   font-family: 'PT Serif', serif;
 }
-
