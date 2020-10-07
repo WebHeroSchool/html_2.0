@@ -1,4 +1,46 @@
+* {
+  border: dashed 1px red;
+}
+
 body { font-family: 'Roboto', sans-serif; }
 
-.section__title,
+.main-section__title,
 .header__logo { font-family: 'PT Serif', serif; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo { padding: 40px 0; }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link { 
+  padding: 0 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav__link:last-child { padding-right: 0; }
+
+.main-section {
+  padding-top: 18%;
+  width: 29%;
+}
+
+.main-section__text { padding: 4% 0; }
+
+.main-section__btn {
+  padding: 3% 7%;
+  background-color: #0056EC;
+  color: white;
+}
