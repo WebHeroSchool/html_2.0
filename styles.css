@@ -1,8 +1,6 @@
-body {
-  font-family: 'Roboto', sans-serif;
-}
+body { font-family: 'Roboto', sans-serif; }
 
-.section__title, 
-.header__logo {
+.section__title,
+.header__logo { 
   font-family: 'PT Serif', serif;
 }
