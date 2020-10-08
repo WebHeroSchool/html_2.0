@@ -1,4 +1,41 @@
 body { font-family: 'Roboto', sans-serif; }
 
-.section__title,
+.main-section__title,
 .header__logo { font-family: 'PT Serif', serif; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo { padding: 40px 0; }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  padding: 0 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav__link:last-child { padding-right: 0; }
+
+.main-section {
+  padding-top: 250px;
+}
+
+.main-section__text { padding: 40px 0; }
+
+.main-section__btn {
+  padding: 23px 105px;
+  background-color: #0056ec;
+  color: white;
+}
