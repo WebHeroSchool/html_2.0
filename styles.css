@@ -42,7 +42,8 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
 }
 
 .nav__link {
-  margin: 26px;
+  margin-right: 26px;
+  align-items: center;
   text-decoration: none;
   color: black;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
