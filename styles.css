@@ -39,7 +39,7 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
 
 .toggler { opacity: 0; }
 
-.burger-menu { 
+.burger-menu {
   display: flex;
   align-items: center;
 }
@@ -108,7 +108,7 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
 
 .main-section__btn:hover { opacity: .5; }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .wrapper { width: 90%; }
 
   .nav__link_active::after { visibility: hidden; }
@@ -208,7 +208,7 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
     transform: rotate(45deg);
     top: 0;
   }
-  
+
   .toggler:checked ~ .toggler-label > span::before {
     transform: rotate(0);
     top: 0;
