@@ -134,7 +134,7 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
     opacity: .7;
     border-radius: 50%;
   }
-  
+
   .logo__circle_color_blue {
     left: 8px;
     top: 64%;
@@ -148,7 +148,7 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
     text-align: center;
     padding: 80% 0 0;
     background-size: 80%;
-    background: top no-repeat url(img/frame_768.svg)
+    background: top no-repeat url(img/frame_768.svg);
   }
 
   .main-section__title {
