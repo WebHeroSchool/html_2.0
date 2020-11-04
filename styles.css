@@ -16,7 +16,6 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
   font: bold 12px/31px 'pt_serif', arial, helvetica, sans-serif;
   padding-left: 41px;
   position: relative;
-  
 }
 
 .logo__circle {
@@ -44,6 +43,7 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
   from {
     transform: translate3d(0, 0, 0) translateY(-100%);
   }
+
   to {
     transform: translate3d(0, 5px, 0);
   }
