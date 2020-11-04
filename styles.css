@@ -16,6 +16,7 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
   font: bold 12px/31px 'pt_serif', arial, helvetica, sans-serif;
   padding-left: 41px;
   position: relative;
+  
 }
 
 .logo__circle {
@@ -28,6 +29,7 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
   background: #0056ec;
   opacity: .7;
   border-radius: 50%;
+  animation: bounce .5s cubic-bezier(.5, .05, 1, .5) 6 alternate;
 }
 
 .logo__circle_color_blue {
@@ -35,6 +37,16 @@ body { font-family: 'Roboto', Arial, Helvetica, Sans-serif; }
   top: 56%;
   background: #c8dbfb;
   opacity: .7;
+  animation: bounce .4s cubic-bezier(.5, .05, 1, .5) 7 alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0) translateY(-100%);
+  }
+  to {
+    transform: translate3d(0, 5px, 0);
+  }
 }
 
 .toggler { opacity: 0; }
